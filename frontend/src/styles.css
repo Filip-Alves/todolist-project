@@ -1,0 +1,12 @@
+/* Assure-toi que le body et html prennent toute la hauteur */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Si une autre règle CSS cache le contenu, force-le à s'afficher */
+  body {
+    display: block;
+    visibility: visible;
+  }
+  
